@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EJJJozhjMMFmA/OEwieUKPI6APp7I4NIIi1FZnBThDQ=",
+  "Source": "sbs.api.agendamento.webapi",
+  "BasePath": "_content/sbs.api.agendamento.webapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

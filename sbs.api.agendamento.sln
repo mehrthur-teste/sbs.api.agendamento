@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Aplicaco", "1-Aplicaco", "{637628BA-2B01-40C1-ABAA-A15402A29B0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Dominio", "2-Dominio", "{845B909B-9039-499E-9EA5-91878076F303}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Infra", "3-Infra", "{6AABB079-B76F-40C9-ADF1-F9F00DC4E7DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Apresentacao", "4-Apresentacao", "{7FCFA3B4-C548-4D7C-B84B-D7EB5031C7D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-CrossCutting", "5-CrossCutting", "{11F9E705-A628-44CE-811A-C113D8B5A724}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{011216DE-3956-47B6-BFDB-DA6A48581B05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{E2095455-616E-4932-BD40-00282FEF1360}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sbs.api.agendamento.aplicacao", "cd\1-Aplicacao\sbs.api.agendamento.aplicacao\sbs.api.agendamento.aplicacao.csproj", "{11D59FC0-66FD-485E-99F6-2EDFF3E55D2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sbs.api.agendamento.dominio", "cd\2-Dominio\sbs.api.agendamento.dominio\sbs.api.agendamento.dominio.csproj", "{0762B4E9-631A-4E15-8337-AF190F39ECFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sbs.api.agendamento.repository", "cd\3-Infra\sbs.api.agendamento.repository\sbs.api.agendamento.repository.csproj", "{47EB18CC-9C34-4ABE-8FB2-2DD8F55442DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sbs.api.agendamento.webapi", "cd\4-Apresentacao\sbs.api.agendamento.webapi\sbs.api.agendamento.webapi.csproj", "{379AE852-3E5D-491C-BD2D-DAB9E3244355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbs.api.agendamento.dependencyinjection", "cd\5-CrossCutting\sbs.api.agendamento.dependencyinjection\sbs.api.agendamento.dependencyinjection.csproj", "{40360682-700C-4B53-8FBD-8593FB3AE61B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbs.api.agendamento.tests", "cd\Tests\sbs.api.agendamento.tests\sbs.api.agendamento.tests.csproj", "{0F7CE50B-F98A-43CA-9566-89C6C4C18FD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11D59FC0-66FD-485E-99F6-2EDFF3E55D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D59FC0-66FD-485E-99F6-2EDFF3E55D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D59FC0-66FD-485E-99F6-2EDFF3E55D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D59FC0-66FD-485E-99F6-2EDFF3E55D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0762B4E9-631A-4E15-8337-AF190F39ECFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0762B4E9-631A-4E15-8337-AF190F39ECFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0762B4E9-631A-4E15-8337-AF190F39ECFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0762B4E9-631A-4E15-8337-AF190F39ECFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47EB18CC-9C34-4ABE-8FB2-2DD8F55442DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47EB18CC-9C34-4ABE-8FB2-2DD8F55442DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47EB18CC-9C34-4ABE-8FB2-2DD8F55442DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47EB18CC-9C34-4ABE-8FB2-2DD8F55442DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{379AE852-3E5D-491C-BD2D-DAB9E3244355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{379AE852-3E5D-491C-BD2D-DAB9E3244355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{379AE852-3E5D-491C-BD2D-DAB9E3244355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{379AE852-3E5D-491C-BD2D-DAB9E3244355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40360682-700C-4B53-8FBD-8593FB3AE61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40360682-700C-4B53-8FBD-8593FB3AE61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40360682-700C-4B53-8FBD-8593FB3AE61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40360682-700C-4B53-8FBD-8593FB3AE61B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7CE50B-F98A-43CA-9566-89C6C4C18FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7CE50B-F98A-43CA-9566-89C6C4C18FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7CE50B-F98A-43CA-9566-89C6C4C18FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7CE50B-F98A-43CA-9566-89C6C4C18FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11D59FC0-66FD-485E-99F6-2EDFF3E55D2B} = {637628BA-2B01-40C1-ABAA-A15402A29B0C}
+		{0762B4E9-631A-4E15-8337-AF190F39ECFB} = {845B909B-9039-499E-9EA5-91878076F303}
+		{47EB18CC-9C34-4ABE-8FB2-2DD8F55442DB} = {6AABB079-B76F-40C9-ADF1-F9F00DC4E7DD}
+		{379AE852-3E5D-491C-BD2D-DAB9E3244355} = {7FCFA3B4-C548-4D7C-B84B-D7EB5031C7D7}
+		{40360682-700C-4B53-8FBD-8593FB3AE61B} = {11F9E705-A628-44CE-811A-C113D8B5A724}
+		{0F7CE50B-F98A-43CA-9566-89C6C4C18FD3} = {011216DE-3956-47B6-BFDB-DA6A48581B05}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {925FC044-339A-40BB-A6BB-786B9ADD6E00}
+	EndGlobalSection
+EndGlobal

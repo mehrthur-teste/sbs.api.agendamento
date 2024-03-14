@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\1-Aplicacao\sbs.api.agendamento.aplicacao\sbs.api.agendamento.aplicacao.csproj" />
+    <ProjectReference Include="..\..\2-Dominio\sbs.api.agendamento.dominio\sbs.api.agendamento.dominio.csproj" />
+    <ProjectReference Include="..\..\3-Infra\sbs.api.agendamento.repository\sbs.api.agendamento.repository.csproj" />
+  </ItemGroup>
+
+</Project>

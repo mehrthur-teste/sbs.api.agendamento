@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6paH8xbNY33BmArx2FQKQP8lmRKuJf7DZO+6H04suHODGzRQSyxQYPEwsBbS4w1hxmEI4jSVHmL0sEe3BGN6sA==",
+  "success": true,
+  "projectFilePath": "C:\\projects-to-migration\\sbs.api.agendamento\\cd\\2-Dominio\\sbs.api.agendamento.dominio\\sbs.api.agendamento.dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gpnet\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\gpnet\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\gpnet\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
